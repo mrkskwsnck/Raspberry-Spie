@@ -1,4 +1,4 @@
-Raspi-Spy
-=========
+RaSpie
+======
 
-Webcam application for the Raspberry Pi using its camera module.
+Web application to provide a video stream by the Raspberry Pi's official camera module.
