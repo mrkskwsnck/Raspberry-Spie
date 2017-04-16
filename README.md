@@ -1,5 +1,5 @@
-RaSpie
-======
+Raspberry-Spie
+==============
 
 Web application to provide a video stream by the Raspberry Pi's official camera module.
 
@@ -20,7 +20,7 @@ Software requirements
 Install prerequisites:
 
     $ sudo apt update
-    $ sudo apt install git python3
+    $ sudo apt install git python3 python3-picamera
 
 
 Getting started
@@ -28,8 +28,8 @@ Getting started
 
 Clone the project's repository and change to its directory:
 
-    $ git clone https://github.com/MrksKwsnck/RaSpie.git
-    $ cd RaSpie
+    $ git clone https://github.com/MrksKwsnck/Raspberry-Spie.git
+    $ cd Raspberry-Spie
 
 Start the application server by running the following command:
 
