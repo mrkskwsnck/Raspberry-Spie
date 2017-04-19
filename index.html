@@ -7,9 +7,9 @@
 	</head>
 	<body>
 		<!-- Video stream -->
-		<video width="640" height="480">
-			<source src="cgi-bin/streamer.py" type="video/h264"/>
-			Unfortunately, your browser does not support the HTML5 video tag :-(
-		</video>
+		<object width="640" height="480" data="cgi-bin/streamer.py" type="video/H264">
+			<embed width="640" height="480" src="cgi-bin/streamer.py" type="video/H264"/>
+			<p>Raw H.264 video stream not supported</p>
+		</object>
 	</body>
 </html>

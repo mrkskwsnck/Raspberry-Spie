@@ -8,7 +8,7 @@ import picamera
 # Reopen STDOUT for writing bytes
 stream = os.fdopen(sys.stdout.fileno(), "wb")
 
-stream.write(b"Content-Type: video/h264\r\n")
+stream.write(b"Content-Type: video/H264\r\n")
 stream.write(b"\r\n")
 # Flush header before threaded recording starts
 stream.flush()
